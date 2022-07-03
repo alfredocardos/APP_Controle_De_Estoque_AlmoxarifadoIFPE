@@ -1,4 +1,4 @@
-# APP_Controle_De_Estoque_____AlmoxarifadoIFPE
+# APP_Controle_De_Estoque___AlmoxarifadoIFPE
 
 Objetivo -> será um sistema de gerenciamento e automatização para empresas que trabalham com rotatividade de estoque (almoxarifado). Terá como principais características o fluxo de entrada e saída de materiais de consumo.
 
