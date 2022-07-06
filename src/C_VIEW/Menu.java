@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class Menu {
     private  static  final Scanner scanner = new Scanner(System.in);
     protected static void descriçãoED() {
+        System.out.println("DIGITE 0 PARA FINALIZAR ");
         System.out.println("ELEMENTO DE DESPESA 16");
         System.out.println("ELEMENTO DE DESPESA 17");
         System.out.println("ELEMENTO DE DESPESA 22");
