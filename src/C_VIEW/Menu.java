@@ -12,13 +12,13 @@ import java.util.Scanner;
 public class Menu {
     private  static  final Scanner scanner = new Scanner(System.in);
     protected static void descriçãoED() {
-        System.out.println("DIGITE 0 PARA FINALIZAR ");
-        System.out.println("ELEMENTO DE DESPESA 16");
-        System.out.println("ELEMENTO DE DESPESA 17");
-        System.out.println("ELEMENTO DE DESPESA 22");
-        System.out.println("ELEMENTO DE DESPESA 23");
-        System.out.println("ELEMENTO DE DESPESA 27");
-        System.out.println("ELEMENTO DE DESPESA MATERIAS ADICONADOS RECENTEMENTE");
+        System.out.println("DIGITE '0' PARA FINALIZAR ");
+        System.out.println("1 - ELEMENTO DE DESPESA 16");
+        System.out.println("2 - ELEMENTO DE DESPESA 17");
+        System.out.println("3 - ELEMENTO DE DESPESA 22");
+        System.out.println("4 - ELEMENTO DE DESPESA 23");
+        System.out.println("5 - ELEMENTO DE DESPESA 27");
+        System.out.println("6 - ELEMENTO DE DESPESA MATERIAS ADICONADOS RECENTEMENTE");
 
     }
     public static  void Interface (int x ) throws Exception {
