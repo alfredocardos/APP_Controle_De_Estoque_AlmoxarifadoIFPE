@@ -169,8 +169,7 @@ public class Crud_ElementoDeDespesa_17 implements  CRUD {
             preparedStatement = concect.prepareStatement
                     ("UPDATE elemento17 SET saldo = saldo - (?) WHERE elemento_de_despesa = '" + ed + "'");
             preparedStatement.setInt(1, saida);
-            preparedStatement.executeUpdate();
-
+                            preparedStatement.closeOnCompletion();
             if (preparedStatement.executeUpdate() > 0) {
                 System.out.println("Saida relizada ");
             } else {
