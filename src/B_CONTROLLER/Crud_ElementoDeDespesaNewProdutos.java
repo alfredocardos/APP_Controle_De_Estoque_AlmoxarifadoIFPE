@@ -164,9 +164,10 @@ public class Crud_ElementoDeDespesaNewProdutos implements CRUD{
         try {
             concect = ConexaoJDBC.createConnectionToMySQL();
             preparedStatement = concect.prepareStatement
-                    ("UPDATE elementonewprodutos SET saldo = saldo - (?) WHERE elemento_de_despesa = '" + ed + "'");
+                    ("UPDATE elementonewprodutos SET saldo = (?) - saldo WHERE elemento_de_despesa = '" + ed + "'");
             preparedStatement.setInt(1, saida);
-            preparedStatement.executeUpdate();
+            preparedStatement.closeOnCompletion();
+
 
             if (preparedStatement.executeUpdate() > 0) {
                 System.out.println("Saida relizada ");
